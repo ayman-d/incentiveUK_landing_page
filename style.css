@@ -1,0 +1,243 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+/* button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+} */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  /*position: absolute;
+  bottom: 0;*/
+  height: 90px;
+  margin-top: 40px;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 80px; /* Vertically center the text there */
+  background-color: #001a00;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* header customization 
+-------------------------------------------------- */
+
+.navbar {
+  height: 90px;
+  background: rgba(005, 005, 005, 0.8);
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+/* main container customization
+-------------------------------------------------- */
+
+.main-section {
+  /*background-color: black;*/
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("pen.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* secondary container customization
+-------------------------------------------------- */
+
+.second-section {
+  background-color: white;
+  height: 390px;
+  width: 100%;
+}
+
+/* contacts container customization
+-------------------------------------------------- */
+
+.contact-div {
+  padding-top: 60px;
+}
+
+.contact-header {
+  padding-bottom: 30px;
+  padding-left: 20px;
+  font-family: "Averia Serif Libre", cursive;
+}
+
+/* hero section customization
+-------------------------------------------------- */
+
+.hero {
+  /* margin: auto; */
+  margin-right: -15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "main-text"
+    "form"
+    "form"
+    "call-us";
+}
+
+@media (min-width: 768px) {
+  .hero {
+    margin-right: -15px;
+    padding-top: 90px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas:
+      "main-text     form"
+      "main-text     form"
+      "main-text     form"
+      "main-text  call-us";
+  }
+}
+
+.hero-text {
+  padding-top: 95px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.main-form {
+  background-color: white;
+  padding-top: 30px;
+  height: 500px;
+  color: black;
+}
+
+.form-group {
+  padding-left: 20px;
+  padding-right: 15px;
+  grid-area: form;
+}
+
+.touch {
+  padding-left: 10px;
+  padding-bottom: 5px;
+  font-size: 35px;
+  font-family: "Averia Serif Libre", cursive;
+}
+
+.message-me {
+  padding-left: 10px;
+  font-family: "Averia Serif Libre", cursive;
+  font-size: 26px;
+}
+
+hr {
+  width: 20%;
+  height: 1px;
+  border: none;
+  color: #333;
+  background-color: #333;
+  margin-left: 10px;
+  display: none;
+}
+
+.email-button {
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 150px;
+  background-color: #003300;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.email-button:hover {
+  background-color: #b35900;
+}
+
+.call-us {
+  background-color: #001a00;
+  height: 135px;
+  color: white;
+  padding-top: 25px;
+  grid-area: call-us;
+  font-family: "Jomolhari", serif;
+  padding-left: 20px;
+}
+
+.special-hr {
+  margin-top: 30px;
+}
+
+.main-section-text {
+  grid-area: main-text;
+  font-family: "Playfair Display SC", serif;
+}
+
+/* .button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+} */
+
+.infoo {
+  margin-left: 30px;
+}
+
+.infoo-header {
+  font-family: "Averia Serif Libre", cursive;
+}
