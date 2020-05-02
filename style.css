@@ -82,7 +82,7 @@ html {
   height: auto;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("pen.jpeg");
+    url("newpen.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
